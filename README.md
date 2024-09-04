@@ -31,6 +31,14 @@ To delete a task, use the delete option provided in the popup or task menu. A co
 
 The main interface displays an overview of all tasks. You can see the list of tasks and use the available options to manage them, including adding, editing, or deleting tasks.
 
+You also have the ability to filter tasks with the following options:
+
+- **All:** View all tasks regardless of their completion status.
+- **Completed:** View only tasks that have been marked as completed.
+- **Incomplete:** View only tasks that are still pending and have not been completed yet.
+
+These filter options help you manage and view tasks more effectively based on their status.
+
 ## 🔗 Links
 
 - **Demo:** https://todolist-react-app-demo.netlify.app/
