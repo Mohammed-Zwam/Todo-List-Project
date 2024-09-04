@@ -155,8 +155,9 @@ ul {
         font-size: 12px !important;
     }
 
-    .mb-ver-alert{
-        bottom: calc(100% - 70px) !important;
-        left: 10px !important;
-        bottom: 0;    }
+    .mb-ver-alert {
+        bottom: calc(100% - 45px) !important;
+        left: 8px !important;
+        padding: 0px 5px !important;
+    }
 }
