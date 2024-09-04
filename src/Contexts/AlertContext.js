@@ -31,6 +31,8 @@ export const AlertProvider = ({ children }) => {
                     transition: "0.3s",
                     opacity: alertInfo.show ? "1" : "0",
                 }}
+
+                className="mb-ver-alert"
             >
                 <div style={{ fontFamily: "warning-font-Cairo" }}>{alertInfo.message}</div>
             </Alert>

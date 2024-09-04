@@ -91,6 +91,8 @@ ul {
 }
 
 @media (max-width: 500px) {
+
+
     .mb-ver-icon {
         font-size: 15px !important;
     }
@@ -152,4 +154,9 @@ ul {
     .mb-ver-delelte p {
         font-size: 12px !important;
     }
+
+    .mb-ver-alert{
+        bottom: calc(100% - 70px) !important;
+        left: 10px !important;
+        bottom: 0;    }
 }
