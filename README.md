@@ -13,8 +13,37 @@ I’m excited to share my latest project, a feature-rich To-Do List application 
 - **Local Storage Persistence:** Saves tasks in local storage to ensure data persistence across sessions.
 - **Reducer Pattern:** Implements a reducer to manage task-related actions, providing clear and maintainable state management.
 
-## 💻 Installation
+## 📦 Usage
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
+### Add Tasks
+
+Click on the “Add Task” button to create new tasks. A popup or input field will appear where you can enter the task details and then save them.
+
+### Edit Tasks
+
+To edit a task, click on the task you want to modify. This will open an edit popup or form where you can update the task details. Save the changes to update the task.
+
+### Delete Tasks
+
+To delete a task, use the delete option provided in the popup or task menu. A confirmation dialog will appear to ensure you want to remove the task. Confirm the deletion to remove the task from the list.
+
+### View Tasks
+
+The main interface displays an overview of all tasks. You can see the list of tasks and use the available options to manage them, including adding, editing, or deleting tasks.
+
+## 🔗 Links
+
+- **Demo:** https://todolist-react-app-demo.netlify.app/
+
+## 🛠 Technologies Used
+
+- React
+- Material-UI
+- Context API
+- Local Storage
+- CSS Animations
+
+
+## 📢 Feedback
+
+I’d love to hear your thoughts and feedback on this project! Feel free to open an issue or reach out through [your contact information or LinkedIn profile].
