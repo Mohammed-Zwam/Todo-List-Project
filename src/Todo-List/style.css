@@ -1,0 +1,155 @@
+ul {
+    list-style: none;
+}
+
+.todolist-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: rgb(0, 0, 139);
+    color: white;
+    margin: 20px 0;
+    transition: 0.3s padding, 0.2s box-shadow;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px 0px black;
+    border: 0.5px solid rgb(0, 0, 105);
+    transform-origin: center;
+}
+
+.task:first-child {
+    margin-top: 0;
+}
+
+.task:last-child {
+    margin-bottom: 0;
+}
+
+.task h2, .task p {
+    font-family: main-font-Handlee;
+}
+
+.task p {
+    font-weight: 550;
+}
+
+.task:hover {
+    box-shadow: 0px 0px 5px 1px black;
+    padding: 20px 10px;
+    background-color: rgb(0, 0, 115);
+}
+
+
+
+.icon-effect {
+    transition: 0.2s !important;
+}
+
+.icon-effect:hover {
+    background-color: #c7c7c7 !important;
+}
+
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.loading {
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    transition: 0.5s opacity;
+}
+
+@media (max-width: 500px) {
+    .mb-ver-icon {
+        font-size: 15px !important;
+    }
+
+    .mb-ver-title {
+        font-size: 18px !important;
+    }
+
+    .mb-ver-vid {
+        transform: scale(0.5) !important;
+    }
+
+    .mb-ver-todo-title {
+        font-size: 20px !important;
+    }
+
+    .mb-ver-todo-det {
+        font-size: 15px !important;
+    }
+
+    .mb-ver-filter {
+        font-size: 14px !important;
+    }
+
+    .mb-ver-btn {
+        font-size: 14px !important;
+        padding: 5px !important;
+    }
+
+    .MuiInputBase-input {
+        font-size: 14px !important;
+        padding: 6px !important;
+    }
+
+    .MuiFormLabel-root {
+        font-size: 14px !important;
+    }
+
+    .task {
+        padding: 5px 10px;
+    }
+
+    .task:hover {
+        padding: 10px 10px;
+    }
+
+    .mb-ver-edit {
+        width: 300px !important;
+    }
+
+    .mb-ver-delelte {
+        width: 400px !important;
+    }
+
+    .mb-ver-delelte h2 {
+        font-size: 15px !important;
+    }
+
+    .mb-ver-delelte p {
+        font-size: 12px !important;
+    }
+}

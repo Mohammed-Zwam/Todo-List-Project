@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: main-font-Handlee;
+    src: url(../public/Fonts/Handlee/Handlee-Regular.ttf);
+}
+
+@font-face {
+    font-family: second-font-Playwrite-NG-Modern;
+    src: url(../public/Fonts/Playwrite_NG_Modern/PlaywriteNGModern-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: warning-font-Cairo;
+    src: url(../public/Fonts/Cairo/Cairo-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: warning-font-Alex;
+    src: url(../public/Fonts/Alexandria/Alexandria-VariableFont_wght.ttf);
+}
+
+
+.App {
+    text-align: center;
+    position: relative;
+}
+
+body {
+    background-image: radial-gradient(circle at center, rgb(0, 0, 110), rgb(0, 0, 100) 30%, rgb(0, 0, 85) 40%, rgb(0, 0, 65) 50%, rgb(0, 0, 50) 65%, rgb(0, 0, 40) 75%, rgb(0, 0, 35) 85%);
+    position: relative;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: warning-font-Cairo;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
