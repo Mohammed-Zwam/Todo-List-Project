@@ -18,10 +18,10 @@ export default function Todo({ task, operations }) {
 
     return (
         <li className="task" key={task.id}>
-            <span>
+            <div className='content'>
                 <h2 style={{ fontSize: "22px", textDecoration: task.completed ? "line-through" : "none", fontFamily: '' }} className='mb-ver-todo-title'>{task.title}</h2>
                 <p style={{ fontSize: "16px", textDecoration: task.completed ? "line-through" : "none" }} className='mb-ver-todo-det'>{task.details}</p>
-            </span>
+            </div>
             <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
                 <IconButton
                     style={{
