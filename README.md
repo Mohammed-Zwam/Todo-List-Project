@@ -54,4 +54,4 @@ These filter options help you manage and view tasks more effectively based on th
 
 ## 📢 Feedback
 
-I’d love to hear your thoughts and feedback on this project! Feel free to open an issue or reach out through [your contact information or LinkedIn profile].
+I’d love to hear your thoughts and feedback on this project! Feel free to open an issue or reach out through [https://www.linkedin.com/in/mohammed-ashraf-2992512a7/].
